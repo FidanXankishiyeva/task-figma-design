@@ -63,6 +63,11 @@ nav {
   padding: 10px 20px;
   font-weight: bold;
 }
+
+.page-2 a{
+  text-decoration: none;
+  color: white;
+}
 .page-2 ul li {
   /* margin-right: 100px; */
   list-style-type: none;

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.founder-words-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 180px 181px 176px 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #28293e;
+}
+
+.img-box {
+  position: relative;
+}
+
+.background {
+  width: 570px;
+  height: 448px;
+}
+
+.person {
+  width: 477px;
+  height: 420px;
+  position: absolute;
+  top: 28px;
+  left: 42px;
+}
+
+.person-about {
+  position: relative;
+}
+
+.shape {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 5px;
+  left: 324px;
+}
+
+.person-about h1 {
+  margin-bottom: 33px;
+  color: var(--text-light-accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.person-about p {
+  margin-bottom: 44px;
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.user-information h2 {
+  margin-bottom: 6px;
+  color: var(--text-light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.user-information h3 {
+  color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
