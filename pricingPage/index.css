@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-5{
+    width: 100%;
+    min-height: 100vh;
+    padding: 108px 134px 156px 135px;
+    background: #FDF0E9;
+}
+
+.title-box h1{
+    margin-bottom: 20px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.title-box h2{
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    letter-spacing: -1px;
+}
+
+.cards-box{
+    display: flex;
+align-items: end;
+}
+
+.consultation-box {
+    width: 33%;
+height: 512px;
+padding: 44px 50px 48px 48px;
+border-radius: 6px 0px 0px 6px;
+border: 1px solid #F3D1BF;
+}
+
+.consultation-box h3{
+    margin-bottom: 17px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.consultation-box h4{
+    margin-bottom: 15px;
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; 
+}
+
+.consultation-box p {
+    margin-bottom: 27px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.cards-box ul li{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.consultation-box li:first-child h5 {
+    margin-left: 16px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+.consultation-box li:nth-child(2) h5, 
+.consultation-box li:last-child h5{
+    margin-left: 16px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.contact-button-1{
+    width: 154px;
+    height: 48px;
+    margin-top: 36px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 4px;
+background-color: white;
+}
+
+
+.contact-button-1 a{
+text-decoration: none;
+font-family: Epilogue;
+font-weight: 800;
+color: black;
+    text-transform: uppercase;
+
+}
+
+.design-box{
+    width: 33%;
+    height: 560px;
+    padding: 32px 48px 48px 40px;
+    border-radius: 6px 6px 0px 0px;
+    border: 1px solid #F3D1BF;
+    background: #FFF;
+    box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
+}
+
+.design-box .popular-button{
+    width: 92px;
+height: 38px;
+padding: 4px 16px;
+border-radius: 19px;
+background: #EF6D58;
+}
+
+.design-box .popular-button a{
+    text-decoration: none;
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.design-box h3{
+    margin-top: 22px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.design-box h4{
+    margin-top: 17px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+
+.design-box p{
+    margin-bottom: 27px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.design-box ul li:first-child h5, 
+.design-box ul li:nth-child(2) h5{
+    margin-left: 16px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.design-box ul li:last-child h5{
+    margin-left: 16px;
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.contact-button-2{
+    width: 154px;
+height: 48px;
+margin-top: 36px;
+border-radius: 6px;
+background: #EF6D58;
+}
+
+.contact-button-2 a{
+    font-family: Epilogue;
+    font-weight: 800;
+    text-decoration: none;
+text-transform: uppercase;
+color: black;
+}
+
+
+.design-cod-box{
+width: 33%;
+height: 512px;
+padding: 46px 48px;
+border-radius: 0px 6px 6px 0px;
+border: 1px solid #F3D1BF;
+}
+
+
+.design-cod-box h3{
+    margin-bottom: 17px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.design-cod-box h4{
+    margin-bottom: 15px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; 
+}
+
+.design-cod-box p{
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;   
+}
+
+.design-cod-box li h5{
+    margin-left: 16px;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+.contact-button-3{
+    width: 154px;
+    height: 48px;
+    margin-top: 36px;
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+
+.contact-button-3 a{
+    font-family: Epilogue;
+    font-weight: 800;
+    text-decoration: none;
+text-transform: uppercase;
+color: black;
+}
+
+
+.page-6{
+    width: 100%;
+    padding: 89px 135px 50px 135px;
+    background: #FDF0E9;
+}
+
+.page-6 .all-box h1{
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+
+.all-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-box .menu-box h2, .service-box h2{
+    margin-bottom: 16px;
+    color: var(--text-dark-accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.all-box .menu-box ul li, 
+.all-box .service-box ul li {
+    list-style-type: none;
+    color: var(--text-dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+hr{
+    width: 100%;
+height: 1px;
+margin-top: 68px;
+border: none;
+background: #F3D1BF;
+}
+
+.text-box{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-2{
+    display: flex;
+}
+
+.text-1 p{
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.text-2 h3, .text-2 h4{
+    color: var(--text-dark, #391400);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.text-2 h3{
+    margin-right: 68px;
+}
+
+button{
+    border: none;
+}

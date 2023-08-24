@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-7{
+    width: 100%;
+    min-height: 100vh;
+    padding: 140px 135px 140px 135px;
+    background: #28293E;
+}
+
+
+.page-7 h1{
+    margin-bottom: 20px;
+    color: var(--text-light-accent, #EF6D58);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.page-7 h2{
+    color: var(--text-light, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px; 
+letter-spacing: -1px;
+}
+
+.date-box{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-1{
+    width: 32%;
+    height: 448px;
+    padding: 36px 40px 36px 40px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+}
+
+.date-box h3{
+    margin-right: 12px;
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 80px; 
+letter-spacing: -2px;
+}
+
+.date-box h4{
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+
+.box-2{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.date-box h5{
+    margin-left: 8px;
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+hr{
+    width: 100%;
+height: 1px;
+margin-top: 36px;
+border: none;
+background: #3A3C56;
+}
+
+.date-box h6{
+    margin-top: 40px;
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+
+.date-box p{
+    margin-top: 19px;
+    color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.date-box a{
+    margin-top: 26px;
+    text-decoration: none;
+    color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+.date-2{
+    width: 32%;
+    height: 448px;
+    padding: 36px 40px 36px 40px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+
+.date-3{
+    width: 32%;
+    height: 448px;
+    padding: 36px 40px 36px 40px;
+    border-radius: 6px;
+    border: 1px solid #3A3C56;
+}
+
+button{
+    width: 170px;
+height: 48px;
+margin-top: 64px;
+border-radius: 6px;
+border: 1px solid #3A3C56;
+background-color: #28293E;
+}
+
+button a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Epilogue;
+    font-weight: 700;
+}
+
