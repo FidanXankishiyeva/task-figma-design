@@ -146,6 +146,7 @@ color: black;
 .design-box .popular-button{
     width: 92px;
 height: 38px;
+margin-bottom: 24px;
 padding: 4px 16px;
 border-radius: 19px;
 background: #EF6D58;
